@@ -1,4 +1,4 @@
-# Dự án website thương mại điện tử bán hàng thời trang 🚀
+# Nhóm 5 - Dự án website thương mại điện tử bán hàng thời trang 🚀
 
 > Hệ thống thương mại điện tử bán hàng thời trang
 
@@ -6,11 +6,14 @@
 
 - ✅ Quản lý danh mục, sản phẩm, khách hàng, đơn hàng
 - ✅ Đăng ký, đăng nhập, xác thực với JWT
-- ✅ Giao diện sáng tối, ngôn ngữ tiếng anh - tiếng việt
+- ✅ Quản lý giỏ hàng
+- ✅ Lịch sử đơn hàng, kiểm tra đơn hàng
+- ✅ Giao diện sáng tối, ngôn ngữ anh - việt
 - ✅ Tìm kiếm, lọc và sắp xếp
 - ✅ Phân quyền người dùng
 - ✅ Nhắn tin thời gian thực với socket
 - ✅ Thanh toán online với zalopay
+- ✅ Gửi mail thông báo
 - ✅ Giao diện trực quan dễ sử dụng
 
 ## 🔧 Công nghệ sử dụng
@@ -19,12 +22,6 @@
 - ⚡ **Backend**: Node.js, Express, Socket, Mysql, Redis, nodemailer
 - 🔗 **Authentication**: JWT
 - 🛢 **Hosting**: Vercel (Frontend), Render (Backend)
-
-## 📎 Link github
-
-```sh
-https://github.com/phucngdev/TM-FE.git
-```
 
 ### 1️⃣ **Yêu cầu**
 
