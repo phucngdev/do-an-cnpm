@@ -19,14 +19,15 @@
 ## 🔧 Công nghệ sử dụng
 
 - 🔥 **Frontend**: ReactJS, Vite, Tailwind, Redux Toolkit, Formik, Yup, Ant Design
-- ⚡ **Backend**: Node.js, Express, Socket, Mysql, Redis, nodemailer
+- ⚡ **Backend**: Node.js, Express, Socket, Mysql, Redis, Nodemailer, Firebase
 - 🔗 **Authentication**: JWT
 - 🛢 **Hosting**: Vercel (Frontend), Render (Backend)
 
 ### 1️⃣ **Yêu cầu**
 
 - Node.js >= 16
-- Database
+- Mysql
+- NPM
 
 ### 2️⃣ **Clone the repository**
 
