@@ -93,10 +93,10 @@ npm start
 
 ## 📌 Danh sách API Endpoints (sẽ bổ sung sau)
 
-| Method | Endpoint               | Mô tả                                    | Request Body (JSON) | Token        |
-| ------ | ---------------------- | ---------------------------------------- | ------------------- | ------------ |
-| `GET`  | `/api/v1/products`     | Lấy danh sách tất cả công việc           | ❌ Không cần        | ❌ Không cần |
-| `GET`  | `/api/v1/products/:id` | Lấy thông tin chi tiết của một công việc | ❌ Không cần        | ❌ Không cần |
+| Method | Endpoint               | Mô tả                                   | Request Body (JSON) | Token        |
+| ------ | ---------------------- | --------------------------------------- | ------------------- | ------------ |
+| `GET`  | `/api/v1/products`     | Lấy danh sách tất cả sản phẩm           | ❌ Không cần        | ❌ Không cần |
+| `GET`  | `/api/v1/products/:id` | Lấy thông tin chi tiết của một sản phẩm | ❌ Không cần        | ❌ Không cần |
 
 ---
 
