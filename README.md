@@ -34,18 +34,22 @@ https://github.com/phucngdev/TM-FE.git
 ### 2️⃣ **Clone the repository**
 
 ```sh
-git clone https://github.com/phucngdev/TM-FE.git
-cd client
-```
-
-```sh
-git clone https://github.com/phucngdev/TM-FE.git
-cd server
+git clone https://github.com/phucngdev/do-an-cnpm.git
 ```
 
 ### 3️⃣ **Install dependencies**
 
+#### 🌐 **Frontend**
+
 ```sh
+cd client
+npm install
+```
+
+#### 💻 **Backend**
+
+```sh
+cd server
 npm install
 ```
 
@@ -71,29 +75,33 @@ JWT_REF_SECRET=yourkey
 VITE_SECRET_KEY=yourkey
 ```
 
+Tạo database: cấu trúc database trong file `server/src/sql` (Chú ý thứ tự tạo các bảng)
+
 ### 5️⃣ **Chạy dự án**
 
 #### 🌐 **Frontend**
 
 ```sh
+cd client
 npm run dev
 ```
 
 #### 💻 **Backend**
 
 ```sh
+cd server
 npm start
 ```
 
 ## 📌 Danh sách API Endpoints (sẽ bổ sung sau)
 
-| Method | Endpoint            | Mô tả                                    | Request Body (JSON) | Token  |
-| ------ | ------------------- | ---------------------------------------- | ------------------- | ------ |
-| `GET`  | `/api/v1/tasks`     | Lấy danh sách tất cả công việc           | ❌ Không cần        | ✅ Cần |
-| `GET`  | `/api/v1/tasks/:id` | Lấy thông tin chi tiết của một công việc | ❌ Không cần        | ✅ Cần |
+| Method | Endpoint               | Mô tả                                    | Request Body (JSON) | Token        |
+| ------ | ---------------------- | ---------------------------------------- | ------------------- | ------------ |
+| `GET`  | `/api/v1/products`     | Lấy danh sách tất cả công việc           | ❌ Không cần        | ❌ Không cần |
+| `GET`  | `/api/v1/products/:id` | Lấy thông tin chi tiết của một công việc | ❌ Không cần        | ❌ Không cần |
 
 ---
 
 ## 📩 Contact
 
-- 📌 Nhóm 5 - Hệ thống thương mại điện tử thời trang
+- 📌 Nhóm 5 - Hệ thống thương mại điện tử bán hàng thời trang
